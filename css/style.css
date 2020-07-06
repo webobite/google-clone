@@ -39,7 +39,6 @@ button {
 .top-toolbar nav button {
 	padding: 7px 12px;
 	border-radius: 2px;
-/*	background-color: #4585F1;*/
 	background-image: -moz-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
 	background-image: -o-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
 	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #4585F1), color-stop(1, #0097DE));
@@ -58,4 +57,61 @@ button {
 	height: 22px;
 	position: relative;
     top: 7px;
+}
+
+/* Search */
+
+.search {
+    text-align: center;
+    clear: both;
+    margin: 11% 0 0 0;
+}
+
+.logo {
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+.search img {
+	margin-bottom: 3%;
+	max-width: 100%;
+}
+
+
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    width: 100%;
+    font-size: 9.5px;
+    background-image: -moz-linear-gradient(top, #F5F5F5 0%, #F0F0F0 100%);
+	background-image: -o-linear-gradient(top, #F5F5F5 0%, #F0F0F0 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F5F5F5), color-stop(1, #F0F0F0));
+	background-image: -webkit-linear-gradient(top, #F5F5F5 0%, #F0F0F0 100%);
+	background-image: linear-gradient(to bottom, #F5F5F5 0%, #F0F0F0 100%);
+}
+
+.footer-left {
+	float: left;
+	margin-left: 16px;
+}
+
+.footer-right {
+	float: right;
+	margin-right: 16px;
+}
+
+footer nav {
+	display: inline-block;
+	padding: 15px 0 0 0;
+}
+
+footer nav a {
+    padding: 3px 14px;
+    color: #646464;
+}
+
+footer nav a:hover {
+   color: #000000;
 }
