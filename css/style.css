@@ -1,0 +1,61 @@
+body {
+    font-size: 10pt;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-weight: bold;
+    font-family: arial;
+}
+
+/* Top Toolbar */
+
+.top-toolbar {
+    height: 50px;
+}
+
+.top-toolbar nav {
+    float: right;
+    margin: 7px 21px;
+}
+
+.top-toolbar nav a {
+    margin: 3px 6px;
+    color: #404040;
+}
+
+.top-toolbar nav a:hover {
+	color: #111111;
+}
+
+.top-toolbar nav button {
+	padding: 7px 12px;
+	border-radius: 2px;
+/*	background-color: #4585F1;*/
+	background-image: -moz-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+	background-image: -o-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #4585F1), color-stop(1, #0097DE));
+	background-image: -webkit-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+	color: white;
+	border: 1px darkblue;
+	font-size: 9.5pt;
+}
+
+.top-toolbar nav button:hover {
+	box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+
+.top-toolbar nav img {
+	margin: 0 7.5px;
+	height: 22px;
+	position: relative;
+    top: 7px;
+}
